@@ -1,0 +1,10 @@
+. - a single character
+? - preceding character matches 0 or 1 times only
+* - preceding character matches 0 or more times
++ - preceding character matches 1 or more times
+{n} - preceding character matches n times
+{n.m} - preceding character matches at least n times and not more than m times
+[agd] - the character is included in the square brackets
+[^agd] - character is not one from the square brackets
+[c-f] - all characters form c to f
+
